@@ -28,9 +28,9 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
                 <li>
                   <Link to={routes.login()}>Log In</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={routes.signup()}>Sign Up</Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           )}
